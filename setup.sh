@@ -20,7 +20,7 @@ fi
 # Perform WP installation process.
 docker-compose exec --user root php-fpm wp core install \
     --url=localhost \
-    --title="WP Skateboard" \
+    --title="WP Docker Custom Blocks Template" \
     --admin_user="admin" \
     --admin_email="admin@test.com" \
     --admin_password="password" \
