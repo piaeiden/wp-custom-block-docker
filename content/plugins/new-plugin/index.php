@@ -81,6 +81,18 @@ function loadVincentBlock() {
 
 add_action('enqueue_block_editor_assets', 'loadVincentBlock');
 
+
+function loadColumnTeaser() {
+  wp_enqueue_script(
+  'column-teaser-small-1',
+  plugin_dir_url(__FILE__) . 'columnTeaserSmall1.js',
+  array('wp-blocks', 'wp-editor'),
+  true
+  );
+}
+
+add_action('enqueue_block_editor_assets', 'loadColumnTeaser');
+
 /**
  * 
  */

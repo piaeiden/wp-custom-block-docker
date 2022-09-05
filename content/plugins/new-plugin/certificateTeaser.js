@@ -18,7 +18,7 @@
             {
               template: [
                 ['core/heading',{'placeholder':'H2. Mandatory. Write the headline in one line (without any breaks) and bold the part, that should be in the first line. The headline will automatically break. Recommended: 70 characters.', 'level':2}],
-                  ['core/columns',{}, 
+                  ['core/columns',{className : 'certificate-teaser-certificates'}, 
                   [
                     ['core/column',{},
                       [
